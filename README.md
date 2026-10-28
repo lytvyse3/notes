@@ -17,7 +17,7 @@ on macOS only 127.0.0.1 is configured by default, so e.g. 127.0.0.2 requires add
 
 
 # encryption 
-symetric - the same key is used in and out example: WPA2 AES 
+symetric - the same key is used in and out example: WPA2 AES
 asymetric - a pair of keys, public encrypts data and private decrypts it example: RSA
 
 # encryption vs hashing 
