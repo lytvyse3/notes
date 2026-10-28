@@ -1,5 +1,5 @@
 # autorization vs authentication
-autorization is the right to perform a given operation something like rwx
+autorization is the right to perform a given operation something like rwx 
 authentication is when you're using credentials 
 
 
@@ -17,7 +17,7 @@ on macOS only 127.0.0.1 is configured by default, so e.g. 127.0.0.2 requires add
 
 
 # encryption 
-symetric - the same key is used in and out example: WPA2 AES
-asymetric - a pair of keys, public encrypts data and private decrypts it example: RSA
+symetric - the same key is used in and out example: WPA2 AES 
+asymetric - a pair of keys, public encrypts data and private decrypts it example: RSA 
 
 # encryption vs hashing 
