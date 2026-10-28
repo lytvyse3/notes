@@ -23,3 +23,17 @@ symetric - the same key is used in and out example: WPA2 AES
 asymetric - a pair of keys, public encrypts data and private decrypts it example: RSA
 
 # encryption vs hashing 
+encryption is reversible example: AES
+
+hashing is one-way example: MD5 (broken) and SHA-256 (good example if you want to check integrity with downloaded system ISO and most secure way is to check GPG signature if it's possible)
+
+# deadlock 
+two or more processes wait for resource held by each other 
+```mermaid
+graph LR
+    A[process A] -->|waits for| R2[resource 2]
+    R2 -->|held by| B[process B]
+    B -->|waits for| R1[resource 1]
+    R1 -->|held by| A
+```
+
