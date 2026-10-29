@@ -41,5 +41,16 @@ important point here is: Coffman conditions
 # race condition
 two or more processes (or threads) use the same resource at the same time and the result depends on the order of their actions 
 
+code: [rc-example.cs](rc-example.cs)
+
+![run 1](images/img1.png)
+
+![run 2](images/img2.png)
+
+![run 3](images/img3.png)
+
+# HTTP response status codes
+
+reference: [MDN - HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status)
 
 
