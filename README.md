@@ -4,7 +4,7 @@ autorization is the right to perform a given operation something like rwx
 authentication is when you're using credentials 
 
 
-# loopback / 127.0.0.1 - material to CCST 100-150 Networking 
+# loopback / 127.0.0.1
 127.0.0.1 - loopback address, `localhost` is the hostname that leads to it (in IPv6 to `::1`)
 the whole 127.0.0.0/8 block from 127.0.0.0 to 127.255.255.255 is reserved for loopback
 every address in this block (e.g. 127.0.0.2) behaves the same way meaning traffic never leaves the machine, but they are separate addresses, not identical to 'localhost'
@@ -36,4 +36,10 @@ graph LR
     B -->|waits for| R1[resource 1]
     R1 -->|held by| A
 ```
+important point here is: Coffman conditions
+
+# race condition
+two or more processes (or threads) use the same resource at the same time and the result depends on the order of their actions 
+
+
 
