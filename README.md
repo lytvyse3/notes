@@ -82,7 +82,7 @@ UDP - connectionless, not reliable
 - no confirmation, no resending, order is not guaranteed
 - faster and lighter
 
-- # SQL injection
+# SQL injection
 
 user input is treated as part of the SQL query instead of plain text
 
@@ -109,7 +109,7 @@ the application does not show the result of the query directly, the attacker lea
 - `UNION` - joins the results of two queries (same number of columns needed)
 - `LIMIT` - limits the number of returned records
 
-# other injection types
+## other injection types
 
 the same idea: user input is run as code by some interpreter
 
